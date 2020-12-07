@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarinete</title>
+<!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<!--ESTILOS CSS--> 
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<!-- SLIDERS --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+
+
+<body>
+                                        <!-- NAV BAR -->
+    <header>
+        <nav>
+            <ul class="nav_list">
+                <li><a href="#">Ultimas Noticias</a></li>
+                <li><a href="#"> Politica</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#">Sociedad</a></li>
+                <li><a href="#">Mundo</a></li>
+                <li><a href="#">Deportes</a></li>
+                <li><a href="#">Espectaculos</a></li>
+                <li><a href="#">Rural</a></li>
+                <li><a href="#">Clasificados</a></li>
+                <li class="aside_btn"><i class="fas fa-bars"></i></li>
+                <li class="search_btn"><i class="fas fa-search"></i></li>
+            </ul>
+                                       
+        </nav>
+                                        <!-- BUSCADOR OCULTO -->
+
+        <div class="search_bar">
+            <input class="search_input" type="text" action="#" method="GET"><button id="search_submit" type="submit">Buscar</button>
+        </div>
+                                         <!-- LOGO Y FECHA -->
+        <div class="logo_dia">
+            <a class="logo_nombre" href="#"><img id="logo" src="imgs/Clarin-sahreing-fbk.jpg" alt="clarinete_logo"><h1 id="titulo_logo">Clarinete</h1></a>
+            <h3 class="fecha">Buenos Aires, 23 de agosto de 2020 </h3>
+        </div>
+        
+                                        <!-- NOTICIAS HOY BAR -->
+        
+        <div class="noticiasHoy">
+            <ul class="lista_news_hoy">
+                <li><b>Noticias de hoy</b></li>
+                <li><a href="#">Noticia 1</a></li>
+                <li><a href="#">Noticia 2</a></li>
+                <li><a href="#">Noticia 3</a></li>
+                <li><a href="#">Noticia 4</a></li>
+                <li><a href="#">Noticia 5</a></li>
+            </ul>
+        </div>
+        
+                                        <!-- DIVISAS BAR -->
+        <div class="divisas_container">
+            <ul class="divisas">
+                <li><span class="moneda"><b>DOLAR B. NACION</b> </span><small>venta </small><b> $86,25</b></li>
+                <li><span class="moneda"><b>DOLAR BLUE</b> </span><small>venta </small><b> $155</b></li>
+                <li><span class="moneda"><b>DOLAR TURISTA</b> </span><small>venta </small><b> $141</b></li>
+                <li><span class="moneda"><b>EURO</b> </span><small>venta </small><b> $97,04</b></li>
+            </ul> 
+        </div>
+        
+    </header>
+
+    <main>
+        
+                                <!-- NOTICIAS PRINCIPALES Y SEMANALES -->
+        <section>
+                                        <!-- PRINCIPALES SLIDER -->
+            <h1 class="titulo">Lo que tenes que saber</h1>
+        
+            <div class="banner_container">
+                <ul class="news1">
+                    <li class="slider_item"><img class="newslider" src="imgs/news1.jpg" alt="new1"><h1 class="slider_tittle">Impacto del Covid-19 en la economia mundial</h3></li>
+                    <li class="slider_item"><img class="newslider" src="imgs/news2.jpg" alt="new2"><h1 class="slider_tittle">Huracan ETA deja destrozado Centroamerica</h3></li>
+                    <li class="slider_item"><img class="newslider" src="imgs/news3.jpg" alt="new3"><h1 class="slider_tittle">Verano 2021. Requisitos para viajar</h3></li>
+                </ul>
+            </div>
+                                        <!-- SEMANALES GRID -->
+            <h1 class="titulo">Noticias de la semana</h1>
+            <article>
+            
+                <a href="#"class="art1"><div class="art_container" ><h3 class="article_tittle">La tension entre EE.UU. e Irán.</h3> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere corrupti voluptate praesentium, accusantium aut recusandae perspiciatis ea commodi animi maiores, amet provident expedita optio porro natus? Sint, reprehenderit nulla. Distinctio? Facere corrupti voluptate praesentium, accusantium aut recusandae?</p></div></a>
+                <a href="#" class="art2"><div class="art_container"><h3 class="article_tittle">Precios de cara a las fiestas.</h3> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere corrupti voluptate praesentium, accusantium aut recusandae?</p></div></a>
+                <a href="#"class="art3"><div class="art_container"><h3 class="article_tittle">Se abren las vacantes laborales.</h3> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere corrupti voluptate praesentium, accusantium aut recusandae?</p></div></a>
+                <a href="#"class="art4"><div class="art_container"><h3 class="article_tittle">Biden gana las elecciones.</h3> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere corrupti voluptate praesentium, accusantium aut recusandae?</p></div></a>
+                <a href="#"class="art5"><div class="art_container"><h3 class="article_tittle">Brasil se abre al turismo.</h3> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere corrupti voluptate praesentium, accusantium aut recusandae? Sint, reprehenderit nulla. Distinctio? Facere corrupti voluptate praesentium, accusantium aut recusandae?</p></div></a>
+                <a href="#"class="art6"><div class="art_container"><h3 class="article_tittle">Se distribuye la vacuna de Pfizer.</h3> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></div></a>
+
+            </article>
+        
+        </section>
+                                        <!-- OTRAS NOTICIAS CARDS --> 
+            <h2 class="titulo">Tambien te va a interesar</h1>
+        
+            <div class="other_news">
+                <a href="#"><div class="other_news_container"><img class="other_new_img" src="imgs/other_new1.jpg" alt="other_new1"><h4 class="article_tittle">Actualizacion de android</h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas mollitia, sapiente eius incidunt ipsam nesciunt quod. Fugit debitis, obcaecati quam rerum repellendus veniam aliquam libero vitae neque quaerat! Dignissimos, sequi.</div></a>
+                <a href="#"><div class="other_news_container"><img class="other_new_img" src="imgs/other_new2.jpg" alt="other_new2"><h4 class="article_tittle">Home Office, el trabajo post-pandemia</h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequuntur distinctio laborum laboriosam assumenda maiores, deserunt sit mollitia aperiam, eligendi quis atque provident voluptates nobis.</div></a>
+                <a href="#"><div class="other_news_container"><img class="other_new_img" src="imgs/other_news3.jpg" alt="other_news3"><h4 class="article_tittle">Habitos naturales para el verano</h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, perferendis deserunt soluta sapiente facilis quas minima quisquam voluptas ipsam ipsa alias rem optio unde, ratione, itaque cumque. Soluta, possimus consequatur.</div></a>
+                <a href="#"><div class="other_news_container"><img class="other_new_img" src="imgs/other_news4.jpg" alt="other_news4"><h4 class="article_tittle">Se prende la Premiere Ligue</h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit reprehenderit minus obcaecati rem et, numquam aperiam provident nam ipsam modi. Placeat aliquid optio similique sed corporis soluta praesentium nisi consequuntur!</div></a>
+            </div>
+        
+        
+    </main>
+                                        <!-- FOOTER CONTACTO -->
+    <footer>
+        <h2 class="contact_tittle">Seguinos</h2>
+        <ul class="contact_list">
+            
+            <a class="contact_items" href=""><li><i class="fab fa-instagram"></i></li></a>
+            <a class="contact_items" href=""><li><i class="fab fa-twitter-square"></i></li></a>
+            <a class="contact_items" href=""><li><i class="fab fa-facebook-square"></i></li></a>
+        </ul>
+    </footer>
+                                        <!-- MENU LATERAL OCULTO -->
+    <aside>
+        <ul class="aside_list">
+            <a class="aside_item" href="#"><li>Home</li></a>
+            <a class="aside_item" href="#"><li>Ultimo momento</li></a>
+            <a class="aside_item" href="#"><li>Politica</li></a>
+            <a class="aside_item" href="#"><li>Economia</li></a>
+            <a class="aside_item" href="#"><li>Sociedad</li></a>
+            <a class="aside_item" href="#"><li>Opinion</li></a>
+            <a class="aside_item" href="#"><li>Mundo</li></a>
+            <a class="aside_item" href="#"><li>Deportes</li></a>
+            <a class="aside_item" href="#"><li>Espectaculos</li></a>
+            <a class="aside_item" href="#"><li>Clima</li></a>
+            <a class="aside_item" href="#"><li>Horoscopo</li></a>
+            <a class="aside_item" href="#"><li>Cultura</li></a>
+            <a class="aside_item" href="#"><li>Loterias</li></a>
+            <a class="aside_item" href=""><li>Radio</li></a>
+            <a class="aside_item" href=""><li>Otros</li></a>
+            
+        </ul>
+    </aside>
+
+
+
+<!-- SLIDER NOTICIAS PRINCIPALES -->
+<script>
+    $(document).ready(function(){
+        $('.news1').bxSlider({
+            mode: 'fade'
+        })
+        $('.news2').bxSlider({
+            mode: 'fade'
+        })
+        $('.news3').bxSlider({
+            mode: 'fade'
+        })
+    })
+    
+</script>
+
+<!-- CONTROLES DEL SLIDER -->
+<script>
+    $('.news1').bxSlider({
+  auto: true,
+  autoControls: false,
+  stopAutoOnClick: true,
+  pager: true,
+  hideControlOnEnd: true,
+  slideWidth: 1000,
+  controls: false,
+  
+});
+</script>
+<!-- BTN JS -->    
+<script src="btn.js"></script>
+    
+</body>
+</html>
